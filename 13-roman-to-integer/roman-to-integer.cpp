@@ -2,9 +2,9 @@ class Solution {
  public:
   int romanToInt(string s) {
     int ans = 0;
-    vector<int> roman(128);
+    vector<int> roman(89);
 
-    roman['I'] = 1;
+    roman[73] = 1;
     roman['V'] = 5;
     roman['X'] = 10;
     roman['L'] = 50;
