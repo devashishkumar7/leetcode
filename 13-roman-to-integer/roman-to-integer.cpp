@@ -4,7 +4,7 @@ class Solution {
     int ans = 0;
     vector<int> roman(89);
 
-    roman[73] = 1;
+    roman['I'] = 1;
     roman['V'] = 5;
     roman['X'] = 10;
     roman['L'] = 50;
